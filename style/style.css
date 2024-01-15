@@ -320,6 +320,70 @@ nav{
     background-repeat: no-repeat;
 }
 
+/* Why choose us section */
+
+
+.why-choose-us-section{
+    max-width: 1450px;
+    margin: 0 auto;
+}
+
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card-title{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.card-description{
+    color: #5A5A5D;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-top: 20px;
+}
+
+.card-container span i{
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.card-1 , .card-2 , .card-3{
+    width: 573px;
+    height: 284px;
+    /* flex-basis: 573px; */
+    padding: 30px;
+
+}
+
+.card-1{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.card-2{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.card-3{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+
+
 /* media query for small device */
 @media screen and (max-width:600px) {
 
@@ -510,6 +574,22 @@ nav{
         background-size: cover;
         background-repeat: no-repeat;
     }   
+
+
+    .why-choose-us-section{
+        padding: 20px;
+    }
+
+    .card-container{
+        flex-direction: column;
+    }
+    .card-1 , .card-2 , .card-3{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        padding: 35px;
+    }
+    
 
 
 }
