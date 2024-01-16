@@ -627,6 +627,10 @@ nav{
     font-weight: 300;
 }
 
+.logo-of-footer{
+    font-size: 32px;
+}
+
 
 /* media query for small device */
 @media screen and (max-width:600px) {
@@ -942,6 +946,9 @@ nav{
         padding: 90px 20px;
     }
 
+    .logo-of-footer{
+        font-size: 32px;
+    }
 
     .my-own-section{
         padding: 20px;
