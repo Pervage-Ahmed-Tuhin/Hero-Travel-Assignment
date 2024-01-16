@@ -69,6 +69,10 @@ nav{
     color: #FF5400;
 }
 
+.menu-logo-icon{
+    display: none;
+}
+
 /* banner section */
 
 .banner-section{
@@ -637,6 +641,11 @@ nav{
     .menu-logo-box{
         padding-left: 15px;
     }
+
+    .menu-logo-icon{
+        display: block;
+    }
+    
 
     .input-bundle{
         flex-direction: column;
