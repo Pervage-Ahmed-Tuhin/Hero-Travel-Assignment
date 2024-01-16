@@ -26,6 +26,11 @@ header{
     margin-bottom: 100px;
 }
 
+
+button:hover{
+    background-color: #131318;
+}
+
 /* navigation section */
 
 .logo-header{
@@ -579,6 +584,10 @@ nav{
         padding: 20px;
     }
 
+    button:hover{
+        background-color: #131318;
+    }
+
     .banner-section{
         width: 100%;
     }
@@ -588,7 +597,8 @@ nav{
     }
 
     .logo-header{
-        justify-content: space-between;
+
+        justify-content: space-around;
     }
     
     .menu-logo-box{
@@ -873,8 +883,10 @@ nav{
         height: 502px;
         flex-shrink: 0;
         background-color: rgba(19, 19, 24, 0.05);
-        padding: 20px ;
+        padding: 90px 20px;
     }
+
+
     
     
 
