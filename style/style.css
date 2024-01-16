@@ -138,10 +138,15 @@ nav{
     position: relative;
 }
 
-.common-logo{
+.common-logo1{
     color: #131318B2;
-    position: relative;
-    right: 45px;
+    position: absolute;
+    right: 955px;
+}
+.common-logo2{
+    color: #131318B2;
+    position: absolute;
+    right: 730px;
 }
 
 .common-serch-logo{
@@ -510,6 +515,32 @@ nav{
     font-weight: 800;
 }
 
+
+
+/* My optional section style */
+
+.my-own-section{
+    max-width: 1450px;
+    margin: 0 auto;
+}
+
+.video-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+
+}
+
+.video-one{
+    width: 50%;
+
+}
+
+.video-two{
+    width: 50%;
+    
+}
 
 /* footer section styles */
 
@@ -887,8 +918,32 @@ nav{
     }
 
 
+    .my-own-section{
+        padding: 20px;
+        margin: auto;
+    }
     
-    
+    .video-container{
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .video-one{
+        width: 100%;
+    }
+
+
+    .video-one video{
+        width: 100%;
+    }
+
+     .video-two video{
+        width: 100%;
+    }
+
+    .video-two{
+        width: 100%;
+    }
 
 }
 
