@@ -64,6 +64,10 @@ nav{
     font-weight: 400;
 }
 
+.ancors a:hover{
+    background-color: #f2f2ff;
+}
+
 .logo-header-title{
     color: #131318;
     font-size: 2.2rem;
