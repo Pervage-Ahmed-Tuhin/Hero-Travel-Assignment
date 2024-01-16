@@ -33,10 +33,15 @@ button:hover{
 
 /* navigation section */
 
-.logo-header{
+.logo-header-box{
     display: flex;
     align-items: center;
     gap: 15px;
+}
+
+.logo-box-container-content{
+    display: flex;
+    align-items: center;
 }
 
 nav{
@@ -59,7 +64,7 @@ nav{
     font-weight: 400;
 }
 
-.logo-header{
+.logo-header-title{
     color: #131318;
     font-size: 2.2rem;
     font-weight: 800;
@@ -637,6 +642,7 @@ nav{
 
     header{
         padding: 20px;
+        width: 100%;
     }
 
     button:hover{
@@ -652,11 +658,32 @@ nav{
         display: none;
     }
 
-    .logo-header{
-
-        justify-content: space-around;
+    nav{
+        width: 100%;
     }
-    
+
+    .logo-header-box{
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        
+    }
+
+    .logo-header-title{
+        font-size: 1.8rem;
+    }
+
+    .logo-box-container-content > img{
+        width: 30%;
+        margin-right: 12px;
+    }
+
+    .menu-logo-icon{
+        /* font-size: 100%; */
+        font-size: 25px;
+    }
+
     .menu-logo-box{
         padding-left: 15px;
     }
