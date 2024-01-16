@@ -139,10 +139,24 @@ nav{
     text-align: center;
     font-size: 0.8rem;
     font-weight: 400;
-    position: relative;
 }
 
-.common-logo1{
+.input-bundle select{
+    width: 204px;
+    height: 52px;
+    border: none;
+    outline: none;
+    /* text-align: center; */
+    padding: 16px 84px 16px 16px;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+/* .common-logo1{
     color: #131318B2;
     position: absolute;
     right: 955px;
@@ -151,7 +165,7 @@ nav{
     color: #131318B2;
     position: absolute;
     right: 730px;
-}
+} */
 
 .common-serch-logo{
     position: relative;
